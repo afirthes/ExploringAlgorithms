@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0836E5742967003D007797C6 /* ExploringAlgorithms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0836E56B2967003D007797C6 /* ExploringAlgorithms.framework */; };
-		0836E5792967003D007797C6 /* ExploringAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836E5782967003D007797C6 /* ExploringAlgorithmsTests.swift */; };
 		0836E57A2967003D007797C6 /* ExploringAlgorithms.h in Headers */ = {isa = PBXBuildFile; fileRef = 0836E56E2967003D007797C6 /* ExploringAlgorithms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0836E58429670061007797C6 /* ExampleUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836E58329670061007797C6 /* ExampleUsingStack.swift */; };
-		0836E5862967006C007797C6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836E5852967006C007797C6 /* Stack.swift */; };
+		0836E5862967006C007797C6 /* WStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0836E5852967006C007797C6 /* WStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +27,8 @@
 		0836E56B2967003D007797C6 /* ExploringAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExploringAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0836E56E2967003D007797C6 /* ExploringAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploringAlgorithms.h; sourceTree = "<group>"; };
 		0836E5732967003D007797C6 /* ExploringAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploringAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0836E5782967003D007797C6 /* ExploringAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploringAlgorithmsTests.swift; sourceTree = "<group>"; };
 		0836E58329670061007797C6 /* ExampleUsingStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleUsingStack.swift; sourceTree = "<group>"; };
-		0836E5852967006C007797C6 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		0836E5852967006C007797C6 /* WStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				0836E56E2967003D007797C6 /* ExploringAlgorithms.h */,
-				0836E5852967006C007797C6 /* Stack.swift */,
+				0836E5852967006C007797C6 /* WStack.swift */,
 			);
 			path = ExploringAlgorithms;
 			sourceTree = "<group>";
@@ -82,7 +80,6 @@
 		0836E5772967003D007797C6 /* ExploringAlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
-				0836E5782967003D007797C6 /* ExploringAlgorithmsTests.swift */,
 				0836E58329670061007797C6 /* ExampleUsingStack.swift */,
 			);
 			path = ExploringAlgorithmsTests;
@@ -198,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0836E5862967006C007797C6 /* Stack.swift in Sources */,
+				0836E5862967006C007797C6 /* WStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0836E58429670061007797C6 /* ExampleUsingStack.swift in Sources */,
-				0836E5792967003D007797C6 /* ExploringAlgorithmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
